@@ -35,7 +35,7 @@ import andreSampaio from '../assets/imgs/equipe/andre_sampaio.jpg';
 import julianaAlmeida from '../assets/imgs/equipe/juliana_almeida.jpg'; 
 import kauanTurini from '../assets/imgs/equipe/kauan_turini.jpg'; 
 import pedroHenrique from '../assets/imgs/equipe/pedro_henrique.jpg'; 
-import tiagoLanconi from '../assets/imgs/equipe/tiago_lanconi.jpg'; 
+import tiagoLanconi from '../assets/imgs/equipe/Tiago_Lanconi.jpg'; 
 import elisaVaz from '../assets/imgs/equipe/elisa_vaz.jpg'; 
 import linkedin from '../assets/icons/linkedin.png';
 import email from '../assets/icons/email.png';
