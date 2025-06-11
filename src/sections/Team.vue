@@ -35,6 +35,8 @@ import andreSampaio from '../assets/imgs/equipe/andre_sampaio.jpg';
 import julianaAlmeida from '../assets/imgs/equipe/juliana_almeida.jpg'; 
 import kauanTurini from '../assets/imgs/equipe/kauan_turini.jpg'; 
 import pedroHenrique from '../assets/imgs/equipe/pedro_henrique.jpg'; 
+import tiagoLanconi from '../assets/imgs/equipe/tiago_lanconi.jpg'; 
+import elisaVaz from '../assets/imgs/equipe/elisa_vaz.jpg'; 
 import linkedin from '../assets/icons/linkedin.png';
 import email from '../assets/icons/email.png';
 import instagram from '../assets/icons/instagram.png';
@@ -60,7 +62,7 @@ const members = ref([
     image: aliceCosta,
     name: 'Alice Costa de Lima',
     role: 'Marketing',
-    description: 'Coordenadora das equipes marketing e escrita/texto',
+    description: 'Coordenadora das equipes marketing e relatório',
     borderClass: 'border-1 border-white',
     bgClass: '',
     textClass: 'text-white',
@@ -85,6 +87,16 @@ const members = ref([
     bgClass: '',
     textClass: 'text-white',
     links: [{ icon: email, url: 'mailto:andreleonardosampaio@alunos.utfpr.edu.br' },{ icon: linkedin, url: 'https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=andré-sampaio-47793436a' }]
+  },
+  {
+    image: elisaVaz,
+    name: 'Elisa Vaz Lopes Mortar',
+    role: 'Marketing',
+    description: 'Responsável pelo marketing e relatório',
+    borderClass: 'border-1 border-white',
+    bgClass: '',
+    textClass: 'text-white',
+    links: [{ icon: email, url: 'mailto:elisavazlopesmortari2@gmail.com' }]
   },
   {
     image: joaoPedro,
@@ -123,6 +135,16 @@ const members = ref([
     bgClass: '',
     textClass: 'text-white',
     links: [{ icon: instagram, url: 'https://www.instagram.com/p.zambon_/' }]
+  },
+  
+  {
+    image: tiagoLanconi,
+    name: 'Tiago Lançoni',
+    role: 'Design/texto',
+    description: 'Auxilio no design do carro ',
+    borderClass: 'border-1 border-white',
+    bgClass: '',
+    textClass: 'text-white',
   }
   // adicione outros membros aqui
 ])
