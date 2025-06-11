@@ -1,5 +1,6 @@
 <template>
   <h1 class="font-[Anton] px-10 text-4xl mt-8 mb-6">O CARRINHO</h1>
+
   <div class="w-full h-auto">
     <img
       :src="selectedImage"
@@ -8,9 +9,7 @@
     />
   </div>
 
-  <div
-    class="flex justify-center items-center gap-4 mt-5 overflow-x-auto px-4 py-2"
-  >
+  <div class="flex justify-center items-center gap-4 mt-5 overflow-x-auto px-4 py-2">
     <div
       v-for="(img, index) in images"
       :key="index"
@@ -23,10 +22,10 @@
         class="w-full h-full object-cover rounded"
       />
 
-      <!-- Overlay escuro com opacidade -->
+      <!-- Overlay Tailwind (agora deve funcionar com o arquivo de config!) -->
       <div
         v-if="selectedImage !== img"
-        class="absolute inset-0 bg-black opacity-70 rounded pointer-events-none"
+        class="absolute inset-0 bg-black bg-opacity-40 pointer-events-none rounded"
       ></div>
     </div>
   </div>
@@ -38,13 +37,11 @@ import { ref } from 'vue'
 import placeholder from '../assets/imgs/carrinho/placeholder.jpg'
 import placeholder1 from '../assets/imgs/carrinho/placeholder1.jpg'
 import placeholder2 from '../assets/imgs/carrinho/placeholder2.jpg'
-// importe outras imagens aqui...
 
 const images = [
   placeholder,
   placeholder1,
   placeholder2,
-  // outras imagens...
 ]
 
 const selectedImage = ref(images[0])
