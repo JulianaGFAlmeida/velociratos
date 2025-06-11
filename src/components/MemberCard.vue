@@ -2,7 +2,7 @@
   <div
     v-if="hasContent"
     :class="[
-      'w-2xs h-full py-6 text-center flex flex-col items-center',
+      'w-2xs max-w-[95vw] h-full py-6 text-center flex flex-col items-center',
       borderClass,
       bgClass,
       textClass
