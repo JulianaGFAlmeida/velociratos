@@ -1,7 +1,5 @@
 <template>
   <h1 class="font-[Anton] px-10 text-4xl mt-8 mb-6">O CARRINHO</h1>
-
-  <!-- Imagem grande -->
   <div class="w-full h-auto">
     <img
       :src="selectedImage"
@@ -10,7 +8,6 @@
     />
   </div>
 
-  <!-- Miniaturas -->
   <div
     class="flex justify-center items-center gap-4 mt-5 overflow-x-auto px-4 py-2"
   >
@@ -20,17 +17,16 @@
       class="relative w-20 h-20 rounded cursor-pointer border-4 border-transparent overflow-hidden"
       @click="selectImage(img)"
     >
-      <!-- Imagem sempre visível -->
       <img
         :src="img"
         alt="Imagem pequena"
         class="w-full h-full object-cover rounded"
       />
-      
-      <!-- Overlay aplicado apenas se NÃO for a imagem selecionada -->
+
+      <!-- Overlay escuro com opacidade -->
       <div
         v-if="selectedImage !== img"
-        class="absolute inset-0 bg-black/80 pointer-events-none rounded"
+        class="absolute inset-0 bg-black opacity-70 rounded pointer-events-none"
       ></div>
     </div>
   </div>
@@ -44,7 +40,12 @@ import placeholder1 from '../assets/imgs/carrinho/placeholder1.jpg'
 import placeholder2 from '../assets/imgs/carrinho/placeholder2.jpg'
 // importe outras imagens aqui...
 
-const images = [placeholder, placeholder1, placeholder2]
+const images = [
+  placeholder,
+  placeholder1,
+  placeholder2,
+  // outras imagens...
+]
 
 const selectedImage = ref(images[0])
 
