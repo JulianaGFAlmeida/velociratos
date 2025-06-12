@@ -37,6 +37,10 @@ import kauanTurini from '../assets/imgs/equipe/kauan_turini.jpg';
 import pedroHenrique from '../assets/imgs/equipe/pedro_henrique.jpg'; 
 import tiagoLanconi from '../assets/imgs/equipe/Tiago_Lanconi.jpg'; 
 import elisaVaz from '../assets/imgs/equipe/elisa_vaz.jpg'; 
+import bernardoCorreia from '../assets/imgs/equipe/bernardo_correia.jpg';
+import gabrielNascimento from '../assets/imgs/equipe/Gabriel_Nascimento_Senhoreli.jpg'; 
+import kauaPittner from '../assets/imgs/equipe/kaua_pittner_muniz.jpg'; 
+import mateusSugae from '../assets/imgs/equipe/Mateus_sugae.jpg';  
 import linkedin from '../assets/icons/linkedin.png';
 import email from '../assets/icons/email.png';
 import instagram from '../assets/icons/instagram.png';
@@ -89,14 +93,34 @@ const members = ref([
     links: [{ icon: email, url: 'mailto:andreleonardosampaio@alunos.utfpr.edu.br' },{ icon: linkedin, url: 'https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=andré-sampaio-47793436a' }]
   },
   {
+    image: bernardoCorreia,
+    name: 'Bernardo Sartori Correia',
+    role: 'Marketing/Texto',
+    description: 'Responsável pela logo e Escrita/Texto',
+    borderClass: 'border-1 border-white',
+    bgClass: '',
+    textClass: 'text-white',
+    links: [{ icon: email, url: 'mailto:bernardosartoricorreia@gmail.com' },{ icon: instagram, url: 'https://www.instagram.com/ber_sartori/' }]
+  },
+  {
     image: elisaVaz,
-    name: 'Elisa Vaz Lopes Mortar',
+    name: 'Elisa Vaz',
     role: 'Marketing',
     description: 'Responsável pelo marketing e relatório',
     borderClass: 'border-1 border-white',
     bgClass: '',
     textClass: 'text-white',
     links: [{ icon: email, url: 'mailto:elisavazlopesmortari2@gmail.com' }]
+  },
+  {
+    image: gabrielNascimento,
+    name: 'Gabriel Nascimento Senhoreli',
+    role: 'Mecânica',
+    description: 'Montagem do veículo',
+    borderClass: 'border-1 border-white',
+    bgClass: '',
+    textClass: 'text-white',
+    links: [{ icon: email, url: 'mailto:gasenhoreli@gmail.com' },{ icon: instagram, url: 'https://www.instagram.com/gabriel_senhoreli/' }]
   },
   {
     image: joaoPedro,
@@ -118,6 +142,16 @@ const members = ref([
     links: [{ icon: email, url: 'mailto:julianaguimafeijo@gmail.com' },{ icon: linkedin, url: 'https://linkedin.com/in/juliana-almeida-688758165/' }]
   },
   {
+    image: kauaPittner,
+    name: 'Kauã Pittner Muniz',
+    role: 'Design/Mecânica',
+    description: 'Participação na concepção, design e montagem do veículo',
+    borderClass: 'border-1 border-white',
+    bgClass: '',
+    textClass: 'text-white',
+    links: [{ icon: email, url: 'mailto:kaua.pitanga2017@gmail.com' }]
+  },
+  {
     image: kauanTurini,
     name: 'Kauan Turini',
     role: 'Design/Mecânica',
@@ -125,6 +159,16 @@ const members = ref([
     borderClass: 'border-1 border-white',
     bgClass: '',
     textClass: 'text-white'
+  },
+  {
+    image: mateusSugae,
+    name: 'Mateus Sugae Damasceno',
+    role: 'Design/Mecânica',
+    description: 'Atuação no design e mecânica na concepção e montagem do veículo',
+    borderClass: 'border-1 border-white',
+    bgClass: '',
+    textClass: 'text-white',
+    links: [{ icon: email, url: 'mailto:mateussugaed@gmail.com' }]
   },
   {
     image: pedroHenrique,
