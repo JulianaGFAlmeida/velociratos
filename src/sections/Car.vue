@@ -32,15 +32,17 @@
 import { ref } from 'vue'
 
 // Importa imagens via ESModules (requer para funcionar no Netlify)
-import placeholder from '../assets/imgs/carrinho/placeholder.jpg'
-import placeholder1 from '../assets/imgs/carrinho/placeholder1.jpg'
-import placeholder2 from '../assets/imgs/carrinho/placeholder2.jpg'
+import carrinho1 from '../assets/imgs/carrinho/montagem_carrinho.jpg'
+import carrinho2 from '../assets/imgs/carrinho/montagem_carrinho2.jpg'
+import carrinho3 from '../assets/imgs/carrinho/Preparacao_carrinho.jpg'
+import carrinho4 from '../assets/imgs/carrinho/Preparacao_carrinho2.jpg'
 // Adicione mais imagens se necessário
 
 const images = [
-  placeholder,
-  placeholder1,
-  placeholder2,
+  carrinho4,
+  carrinho3,
+  carrinho2,
+  carrinho1,
 ]
 
 const selectedImage = ref(images[0])
